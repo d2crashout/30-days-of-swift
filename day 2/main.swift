@@ -17,3 +17,14 @@ apples /= 9
 print(apples) // should be 10
 apples %= 2
 print(apples) // should be 0
+
+var age: Int = 12
+print("I am \(age) years old!")
+let months = 4 // constants can never change
+print("\(months) months end with a Y!")
+
+var weight: Double = 100.5
+var height: Double = 62 / 39.37
+var BMI: Double = weight / (height * height)
+
+print("Your body mass index is \(BMI).")
