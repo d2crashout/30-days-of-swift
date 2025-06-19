@@ -9,3 +9,5 @@ hash -r
 # swift dependencies
 sudo apt-get update
 sudo apt-get -y install libpython3-dev libxml2-dev libz3-dev pkg-config python3-lldb-13
+
+echo "Run: . "$HOME/.local/share/swiftly/env.sh""
